@@ -45,6 +45,7 @@ namespace IdentityService.Pages.Register
                     {
                         new Claim(JwtClaimTypes.Name,Input.FullName)
                     });
+                    RegisterSuccess = true;
 
                 }
                }
